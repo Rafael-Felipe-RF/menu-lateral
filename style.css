@@ -24,7 +24,7 @@ nav.menu-lateral{
     transition: .5s;
 }
 
-nav.menu-lateral:expandir{
+nav.menu-lateral.expandir{
     width: 300px;
 }
 
@@ -57,6 +57,14 @@ ul li.item-menu a{
 
 ul li.item-menu a .txt-link{
     margin-left: 40px;
+    transition: .5s;
+    opacity: 0;
+}
+
+nav.menu-lateral.expandir .txt-link{
+    margin-left: 70px;
+    opacity: 1;
+    
 }
 
 ul li.item-menu:hover{
